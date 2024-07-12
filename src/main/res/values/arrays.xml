@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--UNAUTHENCIATED-->
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_close</item>
+        <item>@drawable/ic_dash_board</item>
+        <item>@drawable/ic_cart</item>
+        <item>@drawable/ic_login</item>
+    </array>
+    <string-array name="ld_activityScreenTitles">
+        <item></item>
+        <item>Trang chủ</item>
+        <item>Đặt hàng</item>
+        <item>Đăng nhập</item>
+    </string-array>
+    <string-array name="ld_activityScreenKeys">
+        <item>close</item>
+        <item>home</item>
+        <item>cart</item>
+        <item>signin</item>
+    </string-array>
+
+
+    <!--USER AUTHENCIATED-->
+    <array name="ld_activityScreenIconsAuthenciated">
+        <item>@drawable/ic_close</item>
+        <item>@drawable/ic_dash_board</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_cart</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+    <string-array name="ld_activityScreenTitlesAuthenciated">
+        <item></item>
+        <item>Trang chủ</item>
+        <item>Tài khoản</item>
+        <item>Đặt hàng</item>
+        <item>Đăng xuất</item>
+    </string-array>
+    <string-array name="ld_activityScreenKeysAuthenciated">
+        <item>close</item>
+        <item>home</item>
+        <item>profile</item>
+        <item>cart</item>
+        <item>logout</item>
+    </string-array>
+
+    <!--    ADMIN AUTHENCIATIED-->
+    <array name="ld_activityScreenIconsAuthenciatedAdmin">
+        <item>@drawable/ic_close</item>
+        <item>@drawable/ic_dash_board</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_cart</item>
+        <item>@drawable/ic_adminpanel</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+    <string-array name="ld_activityScreenTitlesAuthenciatedAdmin">
+        <item></item>
+        <item>Trang chủ</item>
+        <item>Tài khoản</item>
+        <item>Đặt hàng</item>
+        <item>Admin Panel</item>
+        <item>Đăng xuất</item>
+    </string-array>
+    <string-array name="ld_activityScreenKeysAuthenciatedAdmin">
+        <item>close</item>
+        <item>home</item>
+        <item>profile</item>
+        <item>cart</item>
+        <item>admin</item>
+        <item>logout</item>
+    </string-array>
+
+</resources>

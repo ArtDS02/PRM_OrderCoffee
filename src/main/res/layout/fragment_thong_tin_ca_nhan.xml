@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_border_top">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back_icon"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/trangcanhan_tv_title_thongtincanhan"
+            android:textColor="@color/deep_black"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_below="@id/rl_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_border_top"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_all_component"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+
+                <LinearLayout
+                    android:id="@+id/ll_navbot_canhan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/ln_lich_su_don_hang"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding_all_component">
+
+                        <ImageView
+                            android:id="@+id/img_ic_lsdh_canhan"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@drawable/avt_personal" />
+
+                        <TextView
+                            android:id="@+id/tv_role_user"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/inter_medium"
+
+                            android:textAllCaps="false"
+                            android:textColor="#1540EC" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_all_in_component"
+
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:background="@drawable/layout_phone_number_bg_uncheck">
+
+                        <EditText
+                            android:id="@+id/edt_hokh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:hint="@string/all_tv_hint_hokhachhang"
+                            android:inputType="textNoSuggestions"
+                            android:textColorHint="@color/light_silver_gray"
+                            android:textSize="16dp"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_all_in_component"
+
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:background="@drawable/layout_phone_number_bg_uncheck">
+
+                        <EditText
+                            android:id="@+id/edt_tenkh"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:hint="@string/all_tv_hint_tenkhachhang"
+                            android:inputType="textNoSuggestions"
+                            android:textColorHint="@color/light_silver_gray"
+                            android:textSize="16dp"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_all_in_component"
+
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:background="@drawable/layout_phone_number_bg_uncheck">
+
+                        <EditText
+                            android:editable="false"
+                            android:id="@+id/edt_sdtkh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:hint="@string/all_tv_hint_nhapsdt"
+                            android:inputType="phone"
+                            android:textColorHint="@color/light_silver_gray"
+                            android:textSize="16dp"
+
+                            tools:ignore="Deprecated,TouchTargetSizeCheck" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:padding="@dimen/padding_all_in_component"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:background="@drawable/layout_phone_number_bg_uncheck">
+
+                        <EditText
+                            android:id="@+id/edt_diachi_giaohang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:hint="@string/all_tv_hint_diachigiaohang"
+                            android:inputType="textNoSuggestions"
+                            android:textColorHint="@color/light_silver_gray"
+                            android:textSize="16dp"
+
+                            tools:ignore="Deprecated,TouchTargetSizeCheck" />
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+                        android:id="@+id/btn_cap_nhat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/custom_btn_pale_cream_radius_10dp"
+                        android:padding="15dp"
+                        android:text="@string/all_tv_btn_capnhat"
+                        android:textAllCaps="false"
+                        android:textColor="@color/deep_orange"
+                        android:fontFamily="@font/inter_bold"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</RelativeLayout>

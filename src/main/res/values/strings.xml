@@ -1,0 +1,251 @@
+<resources>
+    <!--  All  -->
+    <string name="app_name">FPT Coffee</string>
+    <string name="endpoint_server">http://10.0.2.2/server_langthangcoffee</string>
+    <string name="all_app_name_uppercase"><b>FPT \n COFFEE</b></string>
+
+    <!--    Layout-->
+
+    <string name="all_tv_hint_nhapsdt">Nhập số điện thoại</string>
+    <string name="all_tv_hint_tenkhachhang">Tên khách hàng</string>
+    <string name="all_tv_hint_hokhachhang">Họ khách hàng</string>
+    <string name="all_tv_hint_matkhau">Mật khẩu từ 6 kí tự</string>
+    <string name="all_tv_hint_diachigiaohang">Địa chỉ giao hàng</string>
+    <string name="all_tv_btn_themmoi">Thêm mới</string>
+    <string name="all_tv_btn_capnhat">Cập nhật</string>
+    <string name="all_tv_btn_xoa">Xóa</string>
+    <string name="all_tv_title_size">Size</string>
+    <string name="all_tv_title_chonsize">Chọn 1 loại size</string>
+    <string name="all_tv_title_topping">Topping</string>
+    <string name="all_tv_title_chontopping">Chọn topping</string>
+    <string name="all_tv_title_ghichu">Yêu cầu khác</string>
+    <string name="all_tv_title_motaghichu">Những yêu cầu khác</string>
+    <string name="all_tv_hint_ghichu">Nhập ghi chú</string>
+
+    <string name="all_tv_title_phuongthucgiaohang">Phương thức giao hàng</string>
+    <string name="all_tv_title_phuongthucgiaohang_tannoi">Tận nơi</string>
+    <string name="all_tv_title_thongtingiaohang">Thông tin giao hàng</string>
+    <string name="all_tv_title_sanphamdachon">Sản phẩm đã chọn</string>
+    <string name="all_tv_title_tongcong">Tổng cộng</string>
+    <string name="all_tv_title_thanhtien">Thành tiền</string>
+    <string name="all_tv_title_phigiaohang">Phí giao hàng</string>
+    <string name="all_tv_title_magiamgia">Mã giảm giá 123</string>
+    <string name="all_tv_title_magiamgia_khongco">Không có</string>
+    <string name="all_tv_title_sotienthanhtoan">Số tiền thanh toán</string>
+    <string name="all_tv_title_phuongthucthanhtoan">Phương thức thanh toán</string>
+    <string name="all_tv_title_phuongthucthanhtoan_tienmat">Tiền mặt</string>
+    <string name="all_tv_title_thaydoi">Thay đổi</string>
+    <string name="all_tv_title_apdung">Áp dụng</string>
+    <string name="all_tv_hint_magiamgia">Nhập mã giảm giá</string>
+
+    <string name="all_tv_hint_nguoinhan">Người nhận</string>
+
+    <string name="all_tv_title_saochep">Sao chép</string>
+
+    <string name="all_tv_title_choxacnhan">Chờ xác nhận</string>
+    <string name="all_tv_title_danggiao">Đang giao</string>
+    <string name="all_tv_title_hoantat">Hoàn tất</string>
+    <string name="all_tv_title_dahuy">Đã hủy</string>
+    <string name="all_tv_title_madonhang">Mã đơn hàng</string>
+    <string name="all_tv_title_chitietdathang">Chi Tiết Đặt Hàng</string>
+    <string name="all_tv_btn_huydonhang">Hủy đơn hàng</string>
+    <string name="all_tv_btn_xacnhan">Xác nhận</string>
+    <string name="all_tv_btn_hoantat">Hoàn tất</string>
+
+    <string name="all_tv_title_taikhoan">Tài khoản</string>
+    <string name="all_tv_title_donhang">Đơn hàng</string>
+    <string name="all_tv_btn_uploadanh">Upload ảnh</string>
+    <!-- Fragment Sign In    -->
+    <string name="rl_ln_fragment_dash_board_title">Chào Mừng Bạn Đến Với</string>
+    <string name="tv_plus_84">+84</string>
+    <string name="tv_vertical_line">|</string>
+    <string name="signin_tv_btn_sign_in">Đăng nhập</string>
+    <string name="signin_tv_or"><b>HOẶC</b></string>
+    <string name="signin_tv_sign_in_with_google">Đăng nhập với Google</string>
+    <string name="signin_tv_new_register">Tạo tài khoản mới</string>
+
+
+    <!-- Fragment Sign Up    -->
+    <string name="signup_tv_title_signup">Thông Tin Khách Hàng</string>
+    <string name="signup_tv_title_thong_tin_ca_nhan">Thông Tin Cá Nhân</string>
+    <string name="signup_tv_title_chinhsach">Chấp nhận chính sách</string>
+    <string name="signup_tv_title_chuongtrinh">Chấp nhận Chương trình Thành Viên</string>
+    <string name="signup_tv_btn_tieptheo">Tiếp theo</string>
+
+    <!-- Fragment DanhSachYeuThich    -->
+    <string name="danhsachyeuthich_tv_title">Danh Sách Yêu Thích</string>
+
+    <!-- Fragment DatHang    -->
+    <string name="dathang_tv_title">Đặt Hàng</string>
+    <string name="dathang_tv_hint_timkiem">Tìm kiếm theo tên sản phẩm</string>
+    <string name="dathang_tv_title_caphe">Cà phê</string>
+    <string name="dathang_tv_title_trasua">Trà sữa</string>
+    <string name="dathang_tv_title_soda">Soda</string>
+    <string name="dathang_tv_title_banhngot">Bánh ngọt</string>
+
+    <!-- Fragment DatHangChiTiet    -->
+    <string name="dathangchitiet_tv_title">Chi Tiết Sản Phẩm</string>
+
+    <!-- Fragment XacNhanDatHang    -->
+    <string name="xacnhandathang_tv_title">Xác Nhận Đặt Hàng</string>
+    <string name="xacnhandathang_tv_btn_dathang">Đặt hàng</string>
+    <string name="xacnhandathang_tv_btn_themmon">Thêm món</string>
+
+
+    <!-- Fragment ThongTinGiaoHang    -->
+    <string name="thongtingiaohang_tv_title">Thông Tin Giao Hàng</string>
+    <string name="thongtingiaohang_tv_title_diachimacdinh">Đặt làm địa chỉ mặc định</string>
+    <string name="thongtingiaohang_tv_hint_nguoinhan">Người nhận</string>
+
+    <!-- Fragment MaGiamGia    -->
+    <string name="magiamgia_tv_title">Mã Giảm Giá</string>
+
+    <!-- Fragment TrangVoucher    -->
+    <string name="voucher_tv_title">Ưu Đãi Của Bạn</string>
+    <string name="voucher_tv_title_voucher">Voucher của bạn</string>
+
+    <!-- Fragment TrangChiTietVoucher    -->
+    <string name="chitietvoucher_tv_title">Chi Tiết Voucher</string>
+    <string name="chitietvoucher_tv_title_mota">Mô tả voucher</string>
+
+
+    <!-- Fragment TrangLichSuDonHang    -->
+    <string name="lichsudonhang_tv_title">Lịch Sử Đơn Hàng</string>
+    <!-- Fragment TrangDanhSachDonHang    -->
+    <string name="danhsachdonhang_tv_title">Danh Sách Đơn Hàng</string>
+
+    <!-- Fragment TrangCaNhan    -->
+    <string name="trangcanhan_tv_title">Trang Cá Nhân</string>
+    <string name="trangcanhan_tv_title_lichsudonhang">Lịch sử đơn hàng</string>
+    <string name="trangcanhan_tv_title_danhsachuudai">Danh sách ưu đãi</string>
+    <string name="trangcanhan_tv_title_danhsachyeuthich">Danh sách sản phẩm yêu thích</string>
+    <string name="trangcanhan_tv_title_thongtincanhan">Thông tin cá nhân</string>
+    <string name="trangcanhan_tv_title_thaydoimatkhau">Thay đổi mật khẩu</string>
+    <string name="trangcanhan_tv_title_dangxuat">Đăng xuất</string>
+    <string name="trangcanhan_tv_title_lienhe">Liên hệ</string>
+    <string name="trangcanhan_tv_title_tienich">Tiện ích</string>
+    <string name="trangcanhan_tv_title_doimatkhau">Thay Đổi Mật Khẩu</string>
+    <string name="trangcanhan_tv_hint_matkhauhientai">Mật khẩu hiện tại</string>
+    <string name="trangcanhan_tv_hint_matkhaumoi">Mật khẩu mới</string>
+    <string name="trangcanhan_tv_title_hotro">Hỗ trợ</string>
+
+
+    <!-- Fragment TrangQuanLy    -->
+    <string name="trangquanly_tv_title">Trang Quản Lý</string>
+    <string name="trangquanly_tv_title_danhsachdonhang">Danh sách đơn hàng</string>
+    <string name="trangquanly_tv_title_danhsachtaikhoan">Danh sách tài khoản</string>
+    <string name="trangquanly_tv_title_danhsachsanpham">Danh sách sản phẩm</string>
+    <string name="trangquanly_tv_title_sanpham">Sản phẩm</string>
+    <string name="trangquanly_tv_title_voucher">Voucher</string>
+    <string name="trangquanly_tv_title_danhsachvoucher">Danh sách voucher</string>
+    <string name="trangquanly_tv_title_danhsachloaivoucher">Danh sách loại voucher</string>
+
+    <string name="trangquanly_tv_title_thongke">Thống kê</string>
+    <string name="trangquanly_tv_title_doanhthu">Doanh thu</string>
+
+    <!-- Fragment DoanhThu  -->
+    <string name="doanhthu_tv_title">Doanh Thu</string>
+    <string name="doanhthu_tv_title_tongtienhoadon">Doanh thu đơn hàng đã giao</string>
+    <!-- Fragment LienHe  -->
+    <string name="lienhe_tv_title">Liên Hệ</string>
+    <string name="lienhe_tv_title_sdt">Số điện thoại</string>
+    <string name="lienhe_tv_title_email">Email</string>
+    <string name="lienhe_tv_title_phienbanungdung">Phiên bản ứng dụng</string>
+
+    <!-- Fragment TrangQuanLyLoaiVoucher    -->
+    <string name="trangquanlyloaivoucher_tv_title">Danh Sách Loại Voucher</string>
+    <string name="trangquanlyloaivoucher_tv_hint_timkiem">Tìm kiếm theo tên loại voucher</string>
+    <string name="trangquanlyloaivoucher_tv_title_themsanpham">Thêm Loại Voucher</string>
+    <string name="trangquanlyloaivoucher_tv_hint_tenloaivoucher">Tên loại voucher</string>
+    <string name="trangquanlyloaivoucher_tv_hint_motaloaivoucher">Mô tả loại voucher</string>
+    <string name="trangquanlyloaivoucher_tv_hint_tongtien">Giảm thành tiền (%)</string>
+    <string name="trangquanlyloaivoucher_tv_hint_phiship">Giảm phí giao hàng (%)</string>
+    <string name="trangquanlyloaivoucher_tv_hint_soluongtoithieu">Số lượng sản phẩm tối thiểu</string>
+
+    <!-- Fragment TrangQuanLyVoucher    -->
+    <string name="trangquanlyvoucher_tv_title">Danh Sách Voucher</string>
+
+    <string name="trangquanlyvoucher_tv_hint_timkiem">Tìm kiếm theo mã voucher</string>
+    <string name="trangquanlyvoucher_tv_title_themvoucher">Thêm Voucher</string>
+    <string name="trangquanlyvoucher_tv_hint_mavoucher">Mã voucher</string>
+    <string name="trangquanlyvoucher_tv_title_randommavoucher">Random mã voucher</string>
+    <string name="trangquanlyvoucher_tv_title_alltaikhoan">Tất cả người dùng</string>
+
+
+    <!-- Fragment TrangQuanLyTaiKhoan    -->
+    <string name="trangquanlytaikhoan_tv_title_themtaikhoan">Thêm Tài Khoản</string>
+    <string name="trangquanlytaikhoan_tv_title_chitiettaikhoan">Chi Tiết Tài Khoản</string>
+    <string name="trangquanlytaikhoan_tv_title_danhsachtaikhoan">Danh Sách Tài Khoản</string>
+    <string name="trangquanlytaikhoan_tv_hint_timkiem">Tìm kiếm theo số điện thoại</string>
+    <!-- Fragment TrangQuanLySanPham    -->
+    <string name="trangquanlysanpham_tv_title_danhsachsanpham">Danh Sách Sản Phẩm</string>
+    <string name="trangquanlysanpham_tv_title_themsanpham">Thêm Sản Phẩm</string>
+    <string name="trangquanlysanpham_tv_title_danhmuc">Danh mục</string>
+    <string name="trangquanlysanpham_tv_title_themsize">Thêm size</string>
+    <string name="trangquanlysanpham_tv_title_themtopping">Thêm topping</string>
+    <string name="trangquanlysanpham_tv_hint_tensanpham">Tên sản phẩm</string>
+    <string name="trangquanlysanpham_tv_hint_motasanpham">Mô tả sản phẩm</string>
+    <!-- First page of Dash Board-->
+    <string name="ln_page_1_dash_board_title">#Welcome to</string>
+    <string name="ln_page_1_dash_board_btn">Trải nghiệm</string>
+    <string name="ln_page_1_dash_board_slogan">Không Chỉ Là Coffee \n Chúng Tôi Bán Cả Sự Trải Nghiệm</string>
+    <string name="ln_page_1_dash_board_space"></string>
+    <string name="ln_page_1_dash_board_desc_sapce">Since 2024</string>
+    <string name="vp2_page_1_dash_board_space">vp2</string>
+
+    <!-- Second page of Dash Board   -->
+    <string name="rl_page_2_dash_board_btn">Tìm hiểu ngay ➞</string>
+    <string name="rl_page_2_dash_board_title">Best seller\n #1\n Cà phê\n sữa</string>
+
+    <!-- Third page of Dash Board    -->
+    <string name="ln_page_3_dash_board_title">CÓ GÌ\nTRONG\nTHỰC ĐƠN ?</string>
+    <string name="caffe">Cà phê</string>
+    <string name="MilkTea">Trà sữa</string>
+    <string name="Soda">Soda</string>
+    <string name="SweetCake">Bánh ngọt</string>
+
+    <!-- Fourth page of Dash Board    -->
+    <string name="ln_page_4_dash_board_title">CÙNG VỚI NHỮNG ƯU ĐÃI</string>
+    <string name="ln_ln_page_4_dash_board_title_1">ƯU ĐÃI #1</string>
+    <string name="ln_ln_page_4_dash_board_title_2">ƯU ĐÃI #2</string>
+    <string name="ln_ln_page_4_dash_board_desc_1">Sự kết hợp giữa Cappuccino và bánh bông lan nhân khô nho mang đến hương vị ngọt ngào, thơm ngon và tươi mát sẽ làm dịu cơn khát vào những ngày nóng bức. Bánh bông lan nhân khô nho sẽ tạo ra một vị ngọt dịu, cùng với vị giòn của bánh, mang lại trải nghiệm thưởng thức đầy tuyệt vời. Hãy đến FPT Coffee của chúng tôi để thưởng thức Ưu Đãi này ngay hôm nay!\n</string>
+    <string name="ln_ln_page_4_dash_board_desc_2">Cappuccino kết hợp với bánh sừng bò mặn tạo ra sự kết hợp ngon miệng giữa hương vị ngọt và mặn. Bạn có thể thưởng thức miếng bánh sừng bò mặn giòn tan kèm với một cốc Cappuccino thơm ngon và mát lạnh để tạo ra một trải nghiệm thưởng thức thực phẩm hoàn hảo.\n</string>
+
+    <!-- Fifth page of Dash Board    -->
+    <string name="rl_page_5_dash_board_title">BÁNH NGỌT SAO LẠI KHÔNG ?</string>
+
+
+    <!-- Sixth page of Dash Board    -->
+    <string name="ln_page_6_dash_board_title">VÌ SAO CHÚNG TÔI LÀ NƠI LÍ TƯỞNG CHO BẠN</string>
+    <string name="ln_ln_page_6_dash_board_title_1"><b><u>VỀ CÀ PHÊ</u></b></string>
+    <string name="ln_ln_page_6_dash_board_title_2"><b><u>VỀ MÔI TRƯỜNG</u></b></string>
+    <string name="ln_ln_page_6_dash_board_title_3"><b><u>VỀ GIAO HÀNG</u></b></string>
+    <string name="ln_ln_page_6_dash_board_desc_1">Cà phê tại quán của chúng tôi được pha chế từ những hạt cà phê chọn lọc kỹ càng và rang theo phương pháp truyền thống để đảm bảo hương vị đặc trưng và chất lượng tuyệt vời. Đến với quán cà phê của chúng tôi, bạn sẽ được thưởng thức một tách cà phê đậm đà và thơm ngon nhất.\n</string>
+    <string name="ln_ln_page_6_dash_board_desc_2">Quán của chúng tôi có không gian ấm cúng và thiết kế sang trọng, tạo ra một môi trường thư giãn và đầy cảm hứng cho khách hàng. Bạn sẽ có cơ hội thưởng thức cà phê tuyệt vời trong một không gian thoải mái và đầy hứng khởi. Hãy ghé thăm quán của chúng tôi để tận hưởng không gian đẹp và thoải mái nhất.\n</string>
+    <string name="ln_ln_page_6_dash_board_desc_3">Quán của chúng tôi có không gian ấm cúng và thiết kế sang trọng, tạo ra một môi trường thư giãn và đầy cảm hứng cho khách hàng. Bạn sẽ có cơ hội thưởng thức cà phê tuyệt vời trong một không gian thoải mái và đầy hứng khởi. Hãy ghé thăm quán của chúng tôi để tận hưởng không gian đẹp và thoải mái nhất.\n</string>
+
+    <!-- All For Item -->
+    <string name="all_choose_size">Size</string>
+    <string name="all_small_size">Nhỏ</string>
+    <string name="all_middle_size">Vừa</string>
+    <string name="all_big_size">Lớn</string>
+    <string name="all_topping">Topping</string>
+    <string name="all_choose_size_compulsory">Chọn 1 loại size</string>
+    <string name="all_choose_topping">Chọn topping</string>
+
+    <string name="item">item</string>
+    <string name="todo">TODO</string>
+    <string name="all_learn_about_item">Tìm hiểu ngay</string>
+
+    <!-- Order -->
+    <string name="tv_order">Đặt hàng</string>
+    <string name="edt_product_name_search">Tìm kiếm tên sản phẩm</string>
+    <string name="tv_detail_item">Chi Tiết Sản Phẩm</string>
+    <string name="cf1">Cà phê đen hoà tan bao ngon, ngon hơn cả người yêu cũ của bạn</string>
+    <string name="tv_other_requirements">Yêu cầu khác</string>
+    <string name="tv_other_requirements_desc">Những yêu cầu khác</string>
+    <string name="edt_note">Thêm ghi chú</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

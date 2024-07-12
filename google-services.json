@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "668718166340",
+    "project_id": "langthangcoffee-c0f93",
+    "storage_bucket": "langthangcoffee-c0f93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668718166340:android:8dd0f028f6ad39a099a711",
+        "android_client_info": {
+          "package_name": "com.example.langthangcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668718166340-e1j9s3bd6p5j4021skadmm36l570rdbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV--PeiyFef00HFWtLlYkf24Y-mRp9cbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668718166340-e1j9s3bd6p5j4021skadmm36l570rdbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

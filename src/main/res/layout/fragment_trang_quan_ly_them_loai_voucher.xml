@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back_icon"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/trangquanlyloaivoucher_tv_title_themsanpham"
+            android:textColor="@color/deep_black"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_navigation_top"
+        android:layout_marginBottom="60dp"
+
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/custom_btn_pale_cream_radius_10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_info_detail"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/btn_upload_anh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_btn_pale_cream_radius_10dp"
+                    android:minHeight="48dp"
+                    android:text="@string/all_tv_btn_uploadanh"
+                    android:textAllCaps="false"
+                    android:textColor="#F68422"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck,TextSizeCheck" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_all_component"
+                android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              
+                android:layout_marginTop="20dp"
+              >
+
+                <EditText
+                    android:id="@+id/edt_ten"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/inter_medium"
+                    android:hint="@string/trangquanlyloaivoucher_tv_hint_tenloaivoucher"
+                    android:textColor="@color/deep_black"
+                    android:textSize="26dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edt_mota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:hint="@string/trangquanlyloaivoucher_tv_hint_motaloaivoucher"
+                android:textColor="@color/deep_black"
+                android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/edt_tongtien"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:hint="@string/trangquanlyloaivoucher_tv_hint_tongtien"
+                    android:inputType="number"
+                    android:textColor="@color/deep_black"
+                    android:textSize="15dp" />
+                <EditText
+                    android:id="@+id/edt_phiship"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:hint="@string/trangquanlyloaivoucher_tv_hint_phiship"
+                    android:inputType="number"
+                    android:textColor="@color/deep_black"
+                    android:textSize="15dp" />
+                <EditText
+                    android:id="@+id/edt_soluongtoithieu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:hint="@string/trangquanlyloaivoucher_tv_hint_soluongtoithieu"
+                    android:inputType="number"
+                    android:textColor="@color/deep_black"
+                    android:textSize="15dp" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_ln_item_food_drink_order_2"
+        android:elevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_alignParentTop="true">
+
+            <Button
+                android:id="@+id/btn_them"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_btn_pale_cream_radius_10dp"
+                android:minHeight="48dp"
+                android:text="@string/all_tv_btn_themmoi"
+                android:textAllCaps="false"
+                android:textColor="#F68422"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,TextSizeCheck" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

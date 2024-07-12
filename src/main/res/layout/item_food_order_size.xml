@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border_top_bottom"
+        android:padding="@dimen/padding_all_component"
+        tools:ignore="ExtraText">
+
+        <RadioButton
+            android:id="@+id/rb_select_size"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/custom_rb_deep_orange_bg"
+            android:button="@android:color/transparent"
+            android:checked="false"
+
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/tv_food_size_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/rb_select_size"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/all_big_size"
+            android:textColor="@color/deep_black"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText,RelativeOverlap,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tv_food_size_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/inter_medium"
+            android:text="50.000d"
+            android:textColor="@color/deep_black"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+</RelativeLayout>

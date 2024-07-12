@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_item_san_pham"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/layout_vanilla_white_bg"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/trangcanhan_icon_dssanpham" />
+
+    <TextView
+        android:id="@+id/tv_ten_san_pham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Tên sản phẩm: Cà phê đen"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_ten_danh_muc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Loại: Cà phê"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_gia_ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Giá bán: 25.000 đ"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_item_don_hang"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/layout_vanilla_white_bg"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_bill" />
+    <TextView
+        android:id="@+id/tv_sdt_don_hang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Tài khoản: 0369084341"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_ma_don_hang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Mã đơn hàng: 001"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Chi tiết:"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_tong_tien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Tổng tiền: 90.000 đ"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_thoi_gian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Thời gian: 09/05/2023"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_all_component">10dp</dimen>
+    <dimen name="marginbottom_all_component">15dp</dimen>
+
+    <dimen name="padding_all_in_component">15dp</dimen>
+    <dimen name="marginright_all_in_component">15dp</dimen>
+    <dimen name="margin_all_component">20dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+
+    <dimen name="textsize_all_bigtitle">23dp</dimen>
+</resources>

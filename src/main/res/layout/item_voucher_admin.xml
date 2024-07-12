@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ln_item_voucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginbottom_all_component"
+        android:background="@drawable/btn_trang_ca_nhan"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_all_component">
+
+        <ImageView
+            android:id="@+id/img_voucher"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_vertical"
+           />
+
+        <LinearLayout
+            android:id="@+id/layout_VoucherDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
+
+            <TextView
+                android:id="@+id/tv_tenvoucher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Giảm 50% + freeship"
+                android:fontFamily="@font/inter_medium"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/tv_sdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="Số điện thoại: 0369084341"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+           />
+
+            <TextView
+                android:id="@+id/tv_mavoucher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="VOUCHER 001"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_thoigian_hethan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hết hạn trong 2 ngày nữa"
+                android:fontFamily="@font/inter_medium"
+                android:textColor="#F68422"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/tv_tinhtrangsudung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Đã sử dụng"
+                android:fontFamily="@font/inter_medium"
+                android:textColor="#1540EC"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back_icon"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/trangquanly_tv_title"
+            android:textColor="@color/deep_black"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_navigation_top">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_border_top"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_all_component"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <LinearLayout
+                    android:id="@+id/ln_danhsachvoucher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/txt_tienich_canhan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:text="@string/all_tv_title_donhang"
+                        android:textColor="@color/all_title"
+                        android:textSize="@dimen/textsize_all_bigtitle"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/ln_danhsachdonhang"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:background="@drawable/btn_trang_ca_nhan"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding_all_component">
+
+                        <ImageView
+                            android:id="@+id/img_ic_lsdh_canhan"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/trangcanhan_iconlsdonhang" />
+
+                        <TextView
+                            android:id="@+id/chip_lsdh_canhan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/inter_medium"
+                            android:text="@string/trangquanly_tv_title_danhsachdonhang"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txt_taikhoan_canhan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+
+                        android:text="@string/all_tv_title_taikhoan"
+                        android:textColor="@color/all_title"
+                        android:textSize="@dimen/textsize_all_bigtitle"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/ln_danhsachtaikhoan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:background="@drawable/btn_trang_ca_nhan"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding_all_component">
+
+                        <ImageView
+                            android:id="@+id/img_ic_thongtin_canhan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/trangcanhan_iconthongtincanhan" />
+
+                        <TextView
+                            android:id="@+id/chip_thongtin_canhan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/marginbottom_all_component"
+                            android:fontFamily="@font/inter_medium"
+                            android:text="@string/trangquanly_tv_title_danhsachtaikhoan"
+                            android:textColor="@color/black"
+
+                            />
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:text="@string/trangquanly_tv_title_sanpham"
+
+                        android:textColor="@color/all_title"
+                        android:textSize="@dimen/textsize_all_bigtitle"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/ln_danhsachsanpham"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/marginbottom_all_component"
+                        android:background="@drawable/btn_trang_ca_nhan"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding_all_component">
+
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/trangcanhan_icon_dssanpham" />
+
+                        <TextView
+                            android:id="@+id/chip_danhsach_sanpham"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/inter_medium"
+                            android:text="@string/trangquanly_tv_title_danhsachsanpham"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</RelativeLayout>

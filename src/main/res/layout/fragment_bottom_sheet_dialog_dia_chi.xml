@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/img_close_bottom_dialog"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_close"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/thongtingiaohang_tv_title"
+            android:textColor="@color/deep_black"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/rl_navigation_top"
+       
+
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_all_component"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           android:padding="@dimen/padding_all_in_component"
+               
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/layout_phone_number_bg_uncheck">
+
+                <EditText
+                    android:id="@+id/edt_nguoinhan_info_ship"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    android:background="@android:color/transparent"
+                    android:gravity="left"
+                    android:hint="@string/thongtingiaohang_tv_hint_nguoinhan"
+                    android:inputType="textNoSuggestions"
+                    android:textColorHint="@color/light_silver_gray"
+                    android:textSize="16dp"
+                    tools:ignore="Autofill,RtlHardcoded,TouchTargetSizeCheck,VisualLintTextFieldSize,TextContrastCheck" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_all_in_component"
+           
+               
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/layout_phone_number_bg_uncheck">
+
+                <EditText
+                    android:id="@+id/edt_sdt_info_ship"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    android:background="@android:color/transparent"
+                    android:gravity="left"
+                    android:hint="@string/all_tv_hint_nhapsdt"
+                    android:inputType="phone"
+                    android:textColorHint="@color/light_silver_gray"
+                    android:textSize="16dp"
+                    tools:ignore="Autofill,RtlHardcoded,TouchTargetSizeCheck,VisualLintTextFieldSize,TextContrastCheck" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           android:padding="@dimen/padding_all_in_component"
+               
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/layout_phone_number_bg_uncheck">
+
+                <EditText
+                    android:id="@+id/edt_diachi_info_ship"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    android:background="@android:color/transparent"
+                    android:gravity="left"
+                    android:hint="@string/all_tv_hint_diachigiaohang"
+                    android:inputType="textNoSuggestions"
+                    android:textColorHint="@color/light_silver_gray"
+                    android:textSize="16dp"
+                    tools:ignore="Autofill,RtlHardcoded,TouchTargetSizeCheck,VisualLintTextFieldSize,TextContrastCheck" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           
+               
+                android:layout_marginBottom="15dp"
+
+                tools:ignore="ExtraText">
+
+                <CheckBox
+                    android:id="@+id/chk_default_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toRightOf="@id/chk_default_address"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="@string/thongtingiaohang_tv_title_diachimacdinh"
+                    android:textColor="@color/deep_black"
+                    android:textSize="15dp"
+                    tools:ignore="HardcodedText,RelativeOverlap,RtlHardcoded" />
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_change_info_ship_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_btn_pale_cream_radius_10dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="@string/all_tv_title_apdung"
+                android:textAllCaps="false"
+                android:textColor="#F68422"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

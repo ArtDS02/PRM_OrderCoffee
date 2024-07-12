@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <!-- colors were added -->
+    <color name="all_title">#262626</color>
+
+    <color name="deep_orange">#F68422</color> <!--cam đậm-->
+    <color name="dark_sienna">#7F4924</color> <!-- nâu đỏ đậm -->
+    <color name="dark_charcoal">#161311</color> <!-- đen xám đậm or đen nhánh đậm -->
+    <color name="deep_black">#0e0e0e</color> <!-- đen đậm -->
+    <color name="light_taupe_gray">#DCD7C9</color> <!-- xám nhạt nâu -->
+    <color name="white">#FFFFFF</color> <!-- trắng -->
+    <color name="light_silver_gray">#C3C3C3</color> <!-- xám nhạt bạc -->
+    <color name="dim_gray">#2E2E2E</color> <!-- đen nhẹ -->
+    <color name="charcoal">#242424</color> <!-- đen nhánh -->
+    <color name="vivid_yellow">#F9D423</color> <!-- vàng nhạt tươi -->
+    <color name="pale_cream">#fff2d9</color> <!-- kem nhạt -->
+    <color name="light_grey">#EAEAEA</color> <!-- xám nhạt 1 -->
+    <color name="light_blue">#409fff</color> <!-- xanh dương nhạt -->
+    <color name="light_gray">#BBBBBB</color> <!-- xám nhạt 2 -->
+    <color name="slate_gray">#89898D</color> <!-- xám đá -->
+    <color name="red">#EE2C2C</color> <!-- đỏ -->
+    <color name="vanilla_white">#F5F5F5</color> <!-- màu trắng sửa -->
+</resources>

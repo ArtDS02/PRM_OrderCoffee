@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_item_san_pham"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/layout_vanilla_white_bg"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/trangcanhan_iconthongtincanhan"/>
+
+    <TextView
+        android:id="@+id/tv_hoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Họ tên: Le Thinh"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_sdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Số điện thoại: 0369084341"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_thoigian_thamgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Tham gia: 2023"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/tv_quyenhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Quyền hạn: Nhân viên"
+        android:textColor="@color/deep_black"
+        android:textSize="15dp" />
+
+
+
+</LinearLayout>

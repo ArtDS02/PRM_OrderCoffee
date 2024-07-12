@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/padding_all_component">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border_top_bottom"
+        android:padding="@dimen/padding_all_component"
+        tools:ignore="ExtraText">
+
+        <Button
+            android:id="@+id/btn_subtract"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/custom_btn_pale_cream_radius_30dp"
+            android:text="-"
+  android:layout_centerVertical="true"
+            android:textColor="@color/deep_orange"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+        <EditText
+            android:id="@+id/edt_food_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/btn_subtract"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/all_big_size"
+            android:hint="Tên"
+            android:textColor="@color/deep_black"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText,RelativeOverlap,RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/edt_food_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/inter_medium"
+            android:text="50.000d"
+            android:textColor="@color/deep_black"
+            android:textSize="15dp"
+            android:hint="Giá"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+</RelativeLayout>

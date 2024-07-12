@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back_icon"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_bold"
+
+            android:text="@string/signup_tv_title_signup"
+            android:textColor="@color/deep_black"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/rl_navigation_top">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_border_top"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_all_component"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginbottom_all_component"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:text="@string/signup_tv_title_thong_tin_ca_nhan"
+                    android:textColor="@color/deep_black"
+                    android:textSize="16dp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginbottom_all_component"
+                    android:orientation="horizontal"
+                    app:alignItems="center"
+                    app:justifyContent="space_between">
+
+                    <LinearLayout
+                        android:id="@+id/ln_thongtincanhan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/marginright_all_in_component"
+                        android:background="@drawable/layout_phone_number_bg_uncheck"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/padding_all_in_component">
+
+                        <EditText
+                            android:id='@+id/edt_tenkh'
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:backgroundTint="@color/light_silver_gray"
+                            android:gravity="left"
+                            android:hint="@string/all_tv_hint_tenkhachhang"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:textColorHint="@color/light_silver_gray"
+                            android:textSize="16dp"
+                            android:translationY="2dp"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ln_hokh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_phone_number_bg_uncheck"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/padding_all_in_component">
+
+
+                        <EditText
+                            android:id='@+id/edt_hokh'
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:backgroundTint="@color/light_silver_gray"
+                            android:gravity="left"
+                            android:hint="@string/all_tv_hint_hokhachhang"
+                            android:inputType="text"
+
+                            android:maxLines="1"
+                            android:textColorHint="@color/light_silver_gray"
+                            android:textSize="16dp"
+                            android:translationY="2dp"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </LinearLayout>
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginbottom_all_component"
+
+                    android:background="@drawable/layout_phone_number_bg_uncheck"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_all_in_component"
+                    app:alignItems="center"
+                    app:justifyContent="space_between">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:layout_flexBasisPercent="30%">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/marginright_all_in_component"
+                            android:src="@drawable/img_vietnam_flag"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/marginright_all_in_component"
+                            android:gravity="center"
+                            android:text="@string/tv_plus_84"
+
+                            android:textColor="@color/light_silver_gray"
+                            android:textSize="16dp" />
+
+                        <ImageView
+                            android:id='@+id/tv_vertical_line'
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+
+                            android:layout_marginRight="@dimen/marginright_all_in_component"
+
+
+                            android:background="@drawable/line"
+                            android:textColor="@color/light_silver_gray"
+
+                            tools:srcCompat="@drawable/line" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id='@+id/edt_phone_number'
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:backgroundTint="@color/light_silver_gray"
+                        android:gravity="left"
+                        android:hint="@string/all_tv_hint_nhapsdt"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:textColorHint="@color/light_silver_gray"
+                        android:textSize="16dp"
+                        app:layout_flexBasisPercent="70%"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:id="@+id/ln_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginbottom_all_component"
+                    android:background="@drawable/layout_phone_number_bg_uncheck"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_all_in_component"
+                    app:alignItems="center"
+                    app:justifyContent="space_between">
+
+
+                    <EditText
+                        android:id='@+id/edt_password'
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/marginright_all_in_component"
+                        android:background="@null"
+                        android:backgroundTint="@color/light_silver_gray"
+                        android:gravity="left"
+                        android:hint="@string/all_tv_hint_matkhau"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/light_silver_gray"
+                        android:textSize="16dp"
+                        app:layout_flexBasisPercent="80%"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageView
+                        android:id="@+id/img_showpassword"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:clickable="true"
+                        android:src="@drawable/showpassword"
+                        app:layout_flexBasisPercent="20%"
+                        tools:ignore="ContentDescription" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginbottom_all_component"
+                    android:orientation="horizontal"
+                    app:alignItems="center"
+                    app:justifyContent="flex_start">
+
+                    <CheckBox
+                        android:id="@+id/chk_chinhsach"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        tools:ignore="TouchTargetSizeCheck">
+
+                    </CheckBox>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:gravity="left"
+                        android:text="@string/signup_tv_title_chinhsach"
+                        android:textColor="@color/deep_black"
+                        android:textSize="16dp" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/marginright_all_in_component"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    app:alignItems="center">
+
+                    <CheckBox
+                        android:id="@+id/chk_chuongtrinhthanhvien"
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+                    </CheckBox>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="@font/roboto"
+                        android:gravity="left"
+                        android:text="@string/signup_tv_title_chuongtrinh"
+                        android:textColor="@color/deep_black"
+                        android:textSize="16dp" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <Button
+                    android:id="@+id/btn_sign_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginbottom_all_component"
+                    android:background="@drawable/btn_not_active_background"
+                    android:fontFamily="@font/roboto"
+                    android:padding="@dimen/padding_all_in_component"
+                    android:text="@string/signup_tv_btn_tieptheo"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</RelativeLayout>

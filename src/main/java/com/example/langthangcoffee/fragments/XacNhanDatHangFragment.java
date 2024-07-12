@@ -312,15 +312,9 @@ public class XacNhanDatHangFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        lnGiamGia = view.findViewById(R.id.ln_magiamgia_xacnhan_dathang);
+
         btnThayDoiDiaChi = view.findViewById(R.id.btn_change_info_ship_order);
-        lnGiamGia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                BottomSheetMaGiamGiaFragment bottomSheetMaGiamGiaFragment = new BottomSheetMaGiamGiaFragment(xacNhanDatHangFragment);
-                bottomSheetMaGiamGiaFragment.show(getParentFragmentManager(), bottomSheetMaGiamGiaFragment.getTag());
-            }
-        });
+
         btnThayDoiDiaChi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

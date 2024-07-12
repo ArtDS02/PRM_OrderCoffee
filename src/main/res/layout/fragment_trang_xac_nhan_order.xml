@@ -247,20 +247,6 @@
                     tools:ignore="HardcodedText" />
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/ln_magiamgia_xacnhan_dathang"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:layout_marginTop="10dp"
-
-                android:background="@drawable/layout_border_top_bottom"
-                android:orientation="horizontal"
-                android:paddingBottom="10dp"
-
-                android:weightSum="2">
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
